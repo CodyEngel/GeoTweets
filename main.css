@@ -1,0 +1,68 @@
+#map-canvas {
+	z-index: 1;
+	height: 100%;
+}
+.tweet_container {
+	font-family: 'Lato', sans-serif;
+}
+
+.real_name {
+	color: rgba(0, 0, 0, .87);
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 5px 0 0;
+}
+.pac-container {
+	position: absolute;
+	z-index: 10000!important;
+}
+
+.user_name {
+	color: rgba(0, 0, 0, .54);
+	display: inline-block;
+	font-size: 20px;
+	padding: 0 5px 0 0;
+}
+
+.time {
+	color: rgba(0, 0, 0, .54);
+	display: inline-block;
+}
+
+.text {
+	font-size: 17px;
+}
+
+#search_bar {
+	padding: 10px;
+	position: absolute;
+	z-index: 9999;
+}
+#search_bar button {
+	background: #5677fc;
+	border: 0px;
+	border-radius: 0px 3px 3px 0px;
+	box-shadow: 1px 3px 4px rgba(0, 0, 0, .50);
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0px;
+	padding: 13px 30px 10px 30px;
+	position: relative;
+	right: 4px;
+	
+}
+.fa-search:hover  {
+	cursor: pointer;
+}
+#search_bar input {
+	border: 0px;
+	box-shadow: 2px 3px 4px rgba(0, 0, 0, .50);
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	margin: 0px;
+	padding: 8px 0 8px 5px;
+	width: 500px;
+}
